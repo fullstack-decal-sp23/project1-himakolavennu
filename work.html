@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta name="author" content="Hima Kolavennu">
+        <meta name="description" content="Hima Kolavennu's Projects">
+        <title>Hima Kolavennu's Projects</title>
+        <link rel = "stylesheet" href="styles.css">
+    </head>
+    <div class = "nav-wrapper">
+        <nav>
+            <title>Hima's Portfolio</title>
+            <div class="nav-item"><a href="form.html" class="my-button">Message</a></div>
+            <div class="nav-item"><a href="contact.html">Contact</a></div>
+            <div class="nav-item"><a href="work.html">Work</a></div>
+            <div class="nav-item"><a href="index.html">About</a></div>
+        </nav>
+    </div>
+    <body> 
+        <h1 class = "top-part">Work</h1>
+        <h2 class = "top-part">Scroll down to learn about some of the projects I have works on...</h2>
+        <div class="wrapper">
+            <div class="box">
+                <img src = "commits-and-blobs.png" class = "twohoriz proj-img"> 
+                <h2 class = "onehoriz">Gitlet</h2>
+                <ul class = "onehoriz-2">
+                    <li>Designed and implemented version-control system modeled after Git; mimicked remote commands: pull, push, and fetch</li>
+                    <li>Created functions for commit, checkout, add, log, status, rm, etc; represented internally during execution as Java classes</li>
+                    <li>Ensured persistence by serializing command objects and storing them as text files within appropriate directories locally</li>
+                </ul>
+            </div>
+            <div class="box" id="tworow">
+                <img src = "covid_tracker.png" class = "twohoriz proj-img"> 
+                <h2 class = "onehoriz">COVID Tracker</h2>
+                <ul class = "onehoriz-2">
+                    <li>Created app which allows retrieval of total global Covid cases and cases in each country; displays recent Covid-related articles</li>
+                    <li>Utilized NYTimes API for articles; stored data as JSON object to extract/display name, date, etc. from Covid tracking API</li>
+                </ul>
+            </div>
+            <div class="box" id="tworow">
+                <img src = "budget_abroad.png" class = "twohoriz proj-img"> 
+                <h2 class = "onehoriz">Budget Abroad</h2>
+                <ul class = "onehoriz-2">
+                    <li>Designed travel app concept, app which generates itineraries for users based on budget, days of travel, food preferences, etc.</li>
+                    <li>Integrated Google Places API to include maps tab; allows users to search locations, view travelers’ average spending in that area</li>
+                    <li>Built app with SwiftUI and XCode; team won first place out of 61 summiteers, who were selected from 299 summit applicants</li>
+                </ul>
+            </div>
+        </div>
+    </body> 
+</html>
